@@ -1,0 +1,32 @@
+/* Estilos para las tarjetas */
+.tarjeta {
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* El 33.33% representa 3 tarjetas por fila */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Establecer una altura máxima en las tarjetas */
+.tarjeta {
+    max-height: 600px; /* Ajusta la altura máxima según tus preferencias */
+    overflow: hidden;
+}
+
+/* Estilos para la imagen */
+.tarjeta img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.contenido-tarjeta {
+    padding: 10px;
+    overflow: auto;
+    max-height: calc(100% - 10px); /* Ajusta la altura máxima del contenido */
+}
